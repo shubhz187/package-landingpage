@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/public/fonts/Inter-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-bg: #000000;
+  --color-bg-deep: #0a0a1a;
+  --color-teal: #00D4AA;
+  --color-teal-light: #33FFCC;
+  --color-green: #00E676;
+  --color-red: #FF3D00;
+  --color-blue: #448AFF;
+  --color-text: #E0E0E0;
+  --color-text-dim: #9E9E9E;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
